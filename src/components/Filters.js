@@ -33,11 +33,11 @@ function Filters() {
                 <h4>Location</h4>
                 <div className="form-check">
                     <input type="radio" id="nearme" name="option1" onChange={(event) => handleLocation(event)} />
-                    <label htmlFor="nearme">Worldwide</label>
+                    <label htmlFor="nearme">Global</label>
                 </div>
                 <div className="form-check">
                     <input type="radio" id="remote" name="option1" onChange={(event) => handleLocation(event)} />
-                    <label htmlFor="remote">Canada</label>
+                    <label htmlFor="remote">UK</label>
                 </div>
                 <div className="form-check">
                     <input type="radio" id="exact" name="option1" onChange={(event) => handleLocation(event)} />
@@ -45,50 +45,41 @@ function Filters() {
                 </div>
                 <div className="form-check">
                     <input type="radio" id="within15" name="option1" onChange={(event) => handleLocation(event)} />
-                    <label htmlFor="within15">UK</label>
+                    <label htmlFor="within15">Canada</label>
                 </div>
                 <div className="form-check">
                     <input type="radio" id="within30" name="option1" onChange={(event) => handleLocation(event)} />
-                    <label htmlFor="within30">Brazil</label>
+                    <label htmlFor="within30">APAC</label>
                 </div>
                 <div className="form-check">
                     <input type="radio" id="within45" name="option1" onChange={(event) => handleLocation(event)} />
-                    <label htmlFor="within45">APAC</label>
+                    <label htmlFor="within45">Brazil</label>
                 </div>
                 <h4>Salary</h4>
-                {/* <div className="btn-group" role="group">
-    <input type="radio" id="option11" name="options" className="btn-check "/>
-    <label className="btn border border-end-0" htmlFor="option11">Hourly</label>
-
-    <input type="radio" id="option22" name="options" className="btn-check"/>
-    <label className="btn border" htmlFor="option22">Monthly</label>
-
-    <input type="radio" id="option33" name="options" className="btn-check" />
-    <label className="btn border" htmlFor="option33">Yearly</label>
-</div> */}
+               
                 <div className="form-check mt-2">
                     <input type="radio" id="any" name="option2" onChange={handleSalaryFilter} />
-                    <label htmlFor="any">Any</label>
+                    <label htmlFor="any">All</label>
                 </div>
                 <div className="form-check">
                     <input type="radio" id="30" name="option2" onChange={handleSalaryFilter} />
-                    <label htmlFor="30">30k</label>
+                    <label htmlFor="30">30k...</label>
                 </div>
                 <div className="form-check">
                     <input type="radio" id="50" name="option2" onChange={handleSalaryFilter} />
                     <label htmlFor="50">
-                        50k
+                        50k...
                     </label>
                 </div>
                 <div className="form-check">
                     <input type="radio" id="80" name="option2" onChange={handleSalaryFilter} />
                     <label htmlFor="80">
-                        80k</label>
+                        80k...</label>
                 </div>
                 <div className="form-check">
                     <input type="radio" id="100" name="option2" onChange={handleSalaryFilter} />
                     <label htmlFor="100">
-                        100k
+                        100k...
                     </label>
                 </div>
 
@@ -99,20 +90,20 @@ function Filters() {
                 </div>
                 <div className="form-check">
                     <input type="radio" id="24" name="option3" onChange={handleDateFilter} />
-                    <label htmlFor="24">Last 24 hours</label>
+                    <label htmlFor="24">Last 2 days</label>
                 </div>
                 <div className="form-check">
                     <input type="radio" id="10" name="option3" onChange={handleDateFilter} />
-                    <label htmlFor="10">Last 2 days</label>
+                    <label htmlFor="10">Last 7 days</label>
                 </div>
                 <div className="form-check">
                     <input type="radio" id="300" name="option3" onChange={handleDateFilter} />
-                    <label htmlFor="300"> Last 7 days</label>
+                    <label htmlFor="300"> Last 24 hours</label>
                 </div>
                 <h4 className="filters-container-location-heading">Work experience</h4>
                 <div className="form-check">
                     <input type="radio" id="exp" name="option4" onChange={(event) => handleWork(event)} />
-                    <label htmlFor="exp">Any experience</label>
+                    <label htmlFor="exp">Other Experience</label>
                 </div>
                 <div className="form-check">
                     <input type="radio" id="intern" name="option4" onChange={(event) => handleWork(event)} />
