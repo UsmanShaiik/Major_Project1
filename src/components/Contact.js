@@ -11,7 +11,7 @@ function Contact() {
                 </div>
                 <p className="mt-3">Ut esse eiusmod aute. Sit enim labore dolore. Aute ea fugiat commodo ea foes.</p>
                 <input type="email" className="mb-3" name="" id="mail" placeholder="name@mail.com" />
-                    <button className="btn contact-btn">Subcribe</button>
+                    <button className="btn contact-btn bg-primary">Subcribe</button>
             </div>
             <div className="final d-flex flex-column shadow p-3 mt-4">
                 <div className="email d-flex flex-row align-items-center">
@@ -21,7 +21,7 @@ function Contact() {
                 </div>
                 <p className="mt-3">Ut esse eiusmod aute. Sit enim labore dolore. Aute ea fugiat commodo ea foes.</p>
 
-                <button className="btn contact-btn">Upload Your resume</button>
+                <button className="btn contact-btn bg-primary">Upload Your resume</button>
             </div>
         </div>
     )
