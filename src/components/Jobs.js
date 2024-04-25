@@ -64,7 +64,7 @@ function Jobs() {
                         <p className="company mb-0 pt-0">{eachJob.company_name}</p>
                         <a href={eachJob.url} target="_blank" className='text-decoration-none text-dark'><h5 className="role mt-1">{eachJob.category}</h5></a>
                         {eachJob?.tags.map((eachTag,index) => (
-                            <span className="badge badge-secondary bg-danger me-2 mb-2"key={index}>{eachTag}</span>
+                            <span className="badge badge-secondary bg-primary me-2 mb-2"key={index}>{eachTag}</span>
                         ))}
                         <div className="address d-flex flex-row align-items-center">
                             <i className="fa-solid fa-location-dot me-2"></i>
